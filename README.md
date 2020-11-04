@@ -3,7 +3,7 @@ Se plantea la clasificacion de limones Tahiti, teniendo tres caracteristicas, li
 
 Para esto se creo una base de datos de limones con mas de 600 imagenes de cada limon, se entreno una red neuronal **MobilNet v1**  utilizando la tecnica transfer learning, y luego se implmenta en un sistema embebido, Raspberry pi 3 b+ y la MAix BiT, con los formatos .tflite y kmodel respectivamente.
 
-## Content
+## Contenido Prueba 
 This proyect has two branches: develop1 and develop2. **develop1** contains the tests of the repositories and **develop2** contains the test of the use cases.
 
 ## Demo
