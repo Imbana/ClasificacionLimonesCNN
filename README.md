@@ -6,7 +6,7 @@ Para esto se creo una base de datos de limones con mas de 600 imagenes de cada l
 ## Contenido 
 Los documentos adjuntados realizan las siguiente opereciones
 
- colap : Toma una carpeta que tenga clasificadas las imagenes de lo limones en 3 categorias, las separa en dataset para Train, Validacion y Prueba. Escoge el modelo de red neuronal, lo modifica segun la necesidad, entrena y guarda en formato deseado. (Aclarar que para el proyecto  se hizo uso del  [framework **aXeleRate**](https://github.com/AIWintermuteAI/aXeleRate) diseñado por Dmitry Maslov  debido a que nos proporciona los modelos en formato necesarios para los sistemas embebidos utilizados)
+Codigo_proyecto_final : Toma una carpeta que tenga clasificadas las imagenes de lo limones en 3 categorias, las separa en dataset para Train, Validacion y Prueba. Escoge el modelo de red neuronal, lo modifica segun la necesidad, entrena y guarda en formato deseado. (Aclarar que para el proyecto  se hizo uso del  [framework **aXeleRate**](https://github.com/AIWintermuteAI/aXeleRate) diseñado por Dmitry Maslov  debido a que nos proporciona los modelos en formato necesarios para los sistemas embebidos utilizados)
  
  Video : este .py nos permite correr el modelo cargando un Video que se tenga en la Raspberry e ir clasificando cada parte del video
  Imagene : este .py nos permite correr el modelo cargando Imagenes desde alguna carpeta que se encuentre en la Raspberry e ir clasificando cada Imagen
