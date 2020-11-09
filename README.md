@@ -1,11 +1,11 @@
 # ClasificacionLimonesCNN
 Se plantea la clasificacion de limones Tahiti, teniendo tres caracteristicas, limones buenos(con coloracion uniformemente verde y sin ningun tipo de daños en su cascara), limones con manchas amarillas y limones con acaros(cualquier daño que sea visible en el limon)
 
-<p align="center"><img width="40%" src="Imagenes/sampleFileName%20(2).png" /></p>
+<p align="center"><img width="70%" src="Imagenes/sampleFileName%20(2).png" /></p>
 
 Para esto se creo una base de datos de limones con mas de 600 imagenes de cada limon, se entreno una red neuronal **MobilNet v1**  utilizando la tecnica transfert learning, y luego se implementa en un sistema embebido, Raspberry pi 3 b+ y la MAix BiT, con los formatos .tflite y kmodel respectivamente.
 
-![](Imagenes/sampleFileName%20(2).png)
+
 ## Contenido 
 Los documentos adjuntados realizan las siguiente funciones
 
