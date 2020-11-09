@@ -10,7 +10,7 @@ Para esto se creo una base de datos de limones con mas de 600 imagenes de cada l
 ## Contenido 
 Los documentos adjuntados realizan las siguiente funciones
 
-Codigo_proyecto_final : Este se divide en varias partes **primero** Toma una carpeta que tenga clasificadas las imagenes de lo limones en 3 categorias, las separa en dataset para Train, Validacion y Prueba. Creando carpetas y llenandolas de la misma cantidad de datos. Luego se guaradn en un .zip **Segundo** Coge o cargar el .zip y estas carpetas creadas (Entrenamiento y Validacion)  las procesa de tal forma que puedan ingresar  a la red neuronal. todo esto mediante funciones de tensorflow.  **Tercero** Escoge el modelo de red neuronal, lo modifica segun la necesidad, entrena y guarda en un  formato deseado. (Aclarar que para el proyecto  se hizo uso del  [framework **aXeleRate**](https://github.com/AIWintermuteAI/aXeleRate) diseñado por Dmitry Maslov  debido a que nos proporciona los modelos en formato necesarios para los sistemas embebidos utilizados)
+**Codigo_proyecto_final.ipynb** : Este se divide en varias partes **primero** Toma una carpeta que tenga clasificadas las imagenes de lo limones en 3 categorias, las separa en dataset para Train, Validacion y Prueba. Creando carpetas y llenandolas de la misma cantidad de datos. Luego se guaradn en un .zip **Segundo** Coge o cargar el .zip y estas carpetas creadas (Entrenamiento y Validacion)  las procesa de tal forma que puedan ingresar  a la red neuronal. todo esto mediante funciones de tensorflow.  **Tercero** Escoge el modelo de red neuronal, lo modifica segun la necesidad, entrena y guarda en un  formato deseado. (Aclarar que para el proyecto  se hizo uso del  [framework **aXeleRate**](https://github.com/AIWintermuteAI/aXeleRate) diseñado por Dmitry Maslov  debido a que nos proporciona los modelos en formato necesarios para los sistemas embebidos utilizados)
  
  
  Esta imagen se muestra la exactitud a la hora de clasificar los limones, las etiquetas verdes son las predicciones correctas y las rojas incorrectas
@@ -18,18 +18,20 @@ Codigo_proyecto_final : Este se divide en varias partes **primero** Toma una car
 
  
  
- Video : este .py nos permite correr el modelo cargando un Video que se tenga en la Raspberry e ir clasificando cada parte del video
+ **tfliteDemoVideo.py** : este .py nos permite correr el modelo tflite cargando un Video que se tenga en la Raspberry e ir clasificando cada imagen  video. tenemos que modificar la ruta de donde se encuentra el video, el video debe estar grabado en forma cuadrada 
  
  
- Imagene : este .py nos permite correr el modelo cargando Imagenes desde alguna carpeta que se encuentre en la Raspberry e ir clasificando cada Imagen
- (en estos dos .py se debe modificar el path donde se encuentra el video(con su nombre) o la carpeta de imagenes )
+**tfliteImagenes.py** : este .py nos permite correr el modelo tflite cargando Imagenes desde alguna carpeta que se encuentre en la Raspberry e ir clasificando cada Imagen. se tiene que modificar la ruta donde se encuentran las imagenes, las imagenes pueden ser de cualquier tamaño pero deben ser cuadradas
  
  
- PiCamera: este .py nos permite correr el modelo cargando imagenes directas desde la camara Picamera.
+ **tfliteCamara.py**: este .py nos permite correr el modelo cargando imagenes directas desde la camara Picamera.
  
- Los anteriores .py se corren desde la terminal con el siguiente codigo, teniendo en cuenta los path de donde se encuetra y el nombre del modelo entrenado con sus etiquetas.
+ Los anteriores .py se corren desde la terminal con el siguiente codigo, teniendo en cuenta los path  son del modelo tflite y de las etiquestas en formato txt y el .py se debe correr desde la terminal estando sobre la carpeta donde se encuentra.
+ 
  ```bash
-python3   tensorflowDemo . py−−model   /home/ p i /Documents/ ultimo .  t f l i t e−−l a b e l s   /home/p i /Documents/ l a b e l s . t x 
+python3   tfliteCamara.py −−model /home/pi/Documents/ultimo.tflite −−labels /home/pi/Documents/labels.txt 
 ```
 
+Prueba en la raspberry pi 3b+ para la clasificacion de limones 
+<p align="center"><img width="60%" src="Imagenes/2020-11-09-011519_1024x768_scrot.png" /></p>
 
