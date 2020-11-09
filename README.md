@@ -3,29 +3,22 @@ Se plantea la clasificacion de limones Tahiti, teniendo tres caracteristicas, li
 
 Para esto se creo una base de datos de limones con mas de 600 imagenes de cada limon, se entreno una red neuronal **MobilNet v1**  utilizando la tecnica transfer learning, y luego se implmenta en un sistema embebido, Raspberry pi 3 b+ y la MAix BiT, con los formatos .tflite y kmodel respectivamente.
 
-## Contenido Prueba 
-This proyect has two branches: develop1 and develop2. **develop1** contains the tests of the repositories and **develop2** contains the test of the use cases.
+## Contenido 
+Los documentos adjuntados realizan las siguiente opereciones
 
-## Demo
-If you want to see the demo of this proyect deployed, you can visit [Demo of the proyect](https://anabelisa.co/tips-para-hacer-un-buen-readme-md/)
-
-## How to clone
-If you have special requirements, you have to list it step by step.
-* This is the first step
-* Then you have to do this
-* Finally do this
-
-Markdown has enumation and nested lists.
-
-## Installation
-To install and run this proyect just type and execute
-```bash
-npm install
+ colap : Toma una carpeta que tenga clasificadas las imagenes de lo limones en 3 categorias, las separa en dataset para Train, Validacion y Prueba. Escoge el modelo de red neuronal, lo modifica segun la necesidad, entrena y guarda en formato deseado. (Aclarar que para el proyecto  se hizo uso del  [framework **aXeleRate**](https://github.com/AIWintermuteAI/aXeleRate) diseñado por Dmitry Maslov  debido a que nos proporciona los modelos en formato necesarios para los sistemas embebidos utilizados)
+ 
+ Video : este .py nos permite correr el modelo cargando un Video que se tenga en la Raspberry e ir clasificando cada parte del video
+ Imagene : este .py nos permite correr el modelo cargando Imagenes desde alguna carpeta que se encuentre en la Raspberry e ir clasificando cada Imagen
+ (en estos dos .py se debe modificar el path donde se encuentra el video(con su nombre) o la carpeta de imagenes )
+ 
+ 
+ PiCamera: este .py nos permite correr el modelo cargando imagenes directas desde la camara Picamera.
+ 
+ Los anteriores .py se corren desde la terminal con el siguiente codigo, teniendo en cuenta los path de donde se encuetra y el nombre del modelo entrenado con sus etiquetas.
+ ```bash
+python3   tensorflowDemo . py−−model   /home/ p i /Documents/ ultimo .  t f l i t e−−l a b e l s   /home/p i /Documents/ l a b e l s . t x 
 ```
-## Preview
-Insert here an image of the preview if your project has one. The image can be into the project, you have to indicate the route and look like this.
 
 ![](/4.PNG)
 
-### Notes
-If you want to learn all about markdown i recommend you visit the site [markdown.es](https://markdown.es/sintaxis-markdown/)
