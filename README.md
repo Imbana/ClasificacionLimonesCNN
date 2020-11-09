@@ -13,6 +13,7 @@ Codigo_proyecto_final : Este se divide en varias partes **primero** Toma una car
  
  
  Esta imagen se muestra la exactitud a la hora de clasificar los limones, las etiquetas verdes son las predicciones correctas y las rojas incorrectas
+ 
 <p align="center"><img width="70%" src="ImagenelimonesPrueba1.jpg" /></p>
 
  
