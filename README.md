@@ -3,7 +3,7 @@ Se plantea la clasificacion de limones Tahiti, teniendo tres caracteristicas, li
 
 
 <p align="center">
-   <img src="Imagenes/output(2).gif">
+   <img src="Imagenes/output (2).gif">
 </p>
 
 
