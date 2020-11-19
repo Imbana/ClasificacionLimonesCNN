@@ -43,7 +43,4 @@ Prueba en la raspberry pi 3b+ para la clasificacion de limones
 <p align="center"><img width="60%" src="Imagenes/2020-11-09-011519_1024x768_scrot.png" /></p>
 
 
-steps:
-- title: What is GitHub?
-  description: After watching this video, close the first issue in your repository.
-  video: https://youtube.com/embed/w3jLJU7DT5E
+
