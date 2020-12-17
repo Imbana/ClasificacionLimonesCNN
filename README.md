@@ -35,6 +35,8 @@ Los documentos adjuntados realizan las siguiente funciones
  
  Los anteriores .py se corren desde la terminal con el siguiente codigo, teniendo en cuenta los path  son del modelo tflite y de las etiquestas en formato txt y el .py se debe correr desde la terminal estando sobre la carpeta donde se encuentra.
  
+ **kmodelCamara.py** este .py nos permite correr el modelo kmodel dentro de la tarjeta maix Bit cargando imagenes directas desde la camara 
+ 
  ```bash
 python3   tfliteCamara.py −−model /home/pi/Documents/ultimo.tflite −−labels /home/pi/Documents/labels.txt 
 ```
