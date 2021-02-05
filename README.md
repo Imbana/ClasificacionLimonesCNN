@@ -48,7 +48,7 @@ Prueba en la raspberry pi 3b+ para la clasificacion de limones
 
 #Guia para la configuracion e implementacion del modelo en la Maix-Bit
 
-Configuracion de la plata: (https://www.youtube.com/watch?v=eSHQOYBt_rg&t=181s)
+Configuracion de la plata: (https://www.youtube.com/watch?v=eSHQOYBt_rg&t=181s) <br>
 Implementacion del modelo: (https://www.youtube.com/watch?v=boO86uFLOf8)
 
 
