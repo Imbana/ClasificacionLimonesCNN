@@ -46,4 +46,9 @@ Prueba en la raspberry pi 3b+ para la clasificacion de limones
 <p align="center"><img width="60%" src="Imagenes/2020-11-09-011519_1024x768_scrot.png" /></p>
 
 
+#Guia para la configuracion e implementacion del modelo en la Maix-Bit
+
+Configuracion de la plata: (https://www.youtube.com/watch?v=eSHQOYBt_rg&t=181s)
+Implementacion del modelo: (https://www.youtube.com/watch?v=boO86uFLOf8)
+
 
